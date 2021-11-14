@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A94061327410B9400C72D6C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94061227410B9400C72D6C /* RootView.swift */; };
 		9AA898CC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA898BC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift */; };
 		9AA898CD2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA898BC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift */; };
 		9AA898CE2741086A00DCAD73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA898BD2741086A00DCAD73 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A94061227410B9400C72D6C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		9AA898BC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Custom_Side_MenuApp.swift; sourceTree = "<group>"; };
 		9AA898BD2741086A00DCAD73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AA898BE2741086A00DCAD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A94061127410B7300C72D6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A94061227410B9400C72D6C /* RootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9AA898B62741086900DCAD73 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		9AA898BB2741086A00DCAD73 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9A94061127410B7300C72D6C /* View */,
 				9AA898BC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift */,
 				9AA898BD2741086A00DCAD73 /* ContentView.swift */,
 				9AA898BE2741086A00DCAD73 /* Assets.xcassets */,
@@ -178,6 +189,7 @@
 			files = (
 				9AA898CE2741086A00DCAD73 /* ContentView.swift in Sources */,
 				9AA898CC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift in Sources */,
+				9A94061327410B9400C72D6C /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
