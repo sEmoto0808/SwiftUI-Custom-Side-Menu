@@ -38,6 +38,8 @@ struct TabButton: View {
             .foregroundColor(selectedTab == title ? Color("blue") : .white)
             .padding(.vertical, 12)
             .padding(.horizontal, 10)
+            // Max frame
+            .frame(maxWidth: getRect().width - 170, alignment: .leading)
             .background(
 
                 // Hero animation
