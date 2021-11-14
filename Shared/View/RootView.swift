@@ -20,7 +20,9 @@ struct RootView: View {
                 .ignoresSafeArea()
 
             // Side Menu
-            SideMenu(selectedTab: $selectedTab)
+            ScrollView(getRect().height < 750 ? .vertical : .init(), showsIndicators: false) {
+                SideMenu(selectedTab: $selectedTab)
+            }
 
             ZStack {
 

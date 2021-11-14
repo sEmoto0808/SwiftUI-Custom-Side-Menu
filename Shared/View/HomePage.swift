@@ -53,11 +53,29 @@ struct HomePage: View {
 
         NavigationView {
 
-            Text("Home")
-                .font(.largeTitle)
-                .fontWeight(.heavy)
-                .foregroundColor(.primary)
-                .navigationTitle("Home")
+            VStack(alignment: .leading, spacing: 20) {
+
+                Image("coffee_cups")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: getRect().width - 50, height: 400)
+                    .clipped()
+                    .cornerRadius(20)
+
+                VStack(alignment: .leading, spacing: 5) {
+
+                    Text("Coffee Drip")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.primary)
+
+                    Text("Enjoy Coffee Time!")
+                        .font(.caption)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.primary)
+                }
+            }
+            .navigationTitle("Home")
         }
     }
 }
