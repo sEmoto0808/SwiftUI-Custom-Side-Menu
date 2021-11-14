@@ -41,7 +41,7 @@ struct TabContentView: View {
     }
 }
 
-struct HomePage_Previews: PreviewProvider {
+struct TabContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

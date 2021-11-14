@@ -11,7 +11,7 @@
 		9A9406152741108E00C72D6C /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9406142741108E00C72D6C /* TabButton.swift */; };
 		9A9406172741137F00C72D6C /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9406162741137F00C72D6C /* CustomCorners.swift */; };
 		9A9406192741193F00C72D6C /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9406182741193F00C72D6C /* SideMenu.swift */; };
-		9A94061B27411A6800C72D6C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94061A27411A6800C72D6C /* HomePage.swift */; };
+		9A94061B27411A6800C72D6C /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94061A27411A6800C72D6C /* TabContentView.swift */; };
 		9AA898CC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA898BC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift */; };
 		9AA898CD2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA898BC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift */; };
 		9AA898CE2741086A00DCAD73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA898BD2741086A00DCAD73 /* ContentView.swift */; };
@@ -25,7 +25,7 @@
 		9A9406142741108E00C72D6C /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		9A9406162741137F00C72D6C /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		9A9406182741193F00C72D6C /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
-		9A94061A27411A6800C72D6C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		9A94061A27411A6800C72D6C /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
 		9AA898BC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Custom_Side_MenuApp.swift; sourceTree = "<group>"; };
 		9AA898BD2741086A00DCAD73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AA898BE2741086A00DCAD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				9A94061227410B9400C72D6C /* RootView.swift */,
-				9A94061A27411A6800C72D6C /* HomePage.swift */,
+				9A94061A27411A6800C72D6C /* TabContentView.swift */,
 				9A9406182741193F00C72D6C /* SideMenu.swift */,
 				9A9406162741137F00C72D6C /* CustomCorners.swift */,
 				9A9406142741108E00C72D6C /* TabButton.swift */,
@@ -204,7 +204,7 @@
 				9AA898CC2741086A00DCAD73 /* SwiftUI_Custom_Side_MenuApp.swift in Sources */,
 				9A9406192741193F00C72D6C /* SideMenu.swift in Sources */,
 				9A94061327410B9400C72D6C /* RootView.swift in Sources */,
-				9A94061B27411A6800C72D6C /* HomePage.swift in Sources */,
+				9A94061B27411A6800C72D6C /* TabContentView.swift in Sources */,
 				9A9406172741137F00C72D6C /* CustomCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
