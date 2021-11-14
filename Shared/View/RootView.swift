@@ -60,7 +60,30 @@ struct RootView: View {
                     }
                 } label: {
 
-                    Text("Button")
+                    // Animated drawer button
+                    VStack(spacing: 5) {
+
+                        Capsule()
+                            .fill(showMenu ? Color.white : Color.primary)
+                            .frame(width: 30, height: 3)
+                        // Rotating
+                            .rotationEffect(.init(degrees: showMenu ? -50 : 0))
+                            .offset(x: showMenu ? 2 : 0, y: showMenu ? 9 : 0)
+
+                        VStack(spacing: 5) {
+
+                            Capsule()
+                                .fill(showMenu ? Color.white : Color.primary)
+                                .frame(width: 30, height: 3)
+
+                            // Moving up when clicked
+                            Capsule()
+                                .fill(showMenu ? Color.white : Color.primary)
+                                .frame(width: 30, height: 3)
+                                .offset(y: showMenu ? -8 : 0)
+                        }
+                        .rotationEffect(.init(degrees: showMenu ? 50 : 0))
+                    }
                 }
                     .padding()
                 ,alignment: .topLeading
